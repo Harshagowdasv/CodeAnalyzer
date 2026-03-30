@@ -1,0 +1,94 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  margin-top: 10%;
+  background-color: #1c1f26;
+  width: 900px;
+  height: 750px;
+  justify-content: center;
+  justify-self: center;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid cyan;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+form{
+  height: 200px;
+  width: 300px;
+  display: grid;
+  gap: 10px;
+  color: white;
+}
+
+label{
+  text-align: left;
+}
+
+input{
+  padding: 15px 20px;
+  border-radius: 13px;
+  background: rgb(85, 79, 79);
+  color: white;
+}
+
+input::placeholder{
+  color: white;
+}
+
+button{
+  padding: 15px 20px;
+  background-color: cyan;
+  border-radius: 15px;
+}
+
+.image{
+  align-items: center;
+  text-align: center;
+}
+
+.sideimg{
+  margin-top: 30%;
+  margin-left: 35%;
+}
+
+img{
+  align-self: center;
+  height: 300px;
+  width: 350px;
+  border-radius: 20px;
+}
+
+footer{
+  text-align: center;
+}
+footer ul{
+  display: flex;
+  gap: 30px;
+  color: white;
+}
+
+ul li{
+  list-style: none;
+}
+
+button:hover{
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: cyan;
+}
