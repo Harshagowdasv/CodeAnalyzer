@@ -1,0 +1,39 @@
+.introduction{
+    color: white;
+    box-shadow: 
+    0 0 10px #00f,   /* inner glow */
+    0 0 10px #0ff,   /* outer glow */
+    0 0 40px rgb(157, 228, 228);   /* extended glow */
+    padding: 15px;
+    margin-top: 5%;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+
+}
+
+.sections{
+    color: white;
+    display: grid;
+    width: 100%;
+}
+
+.list{
+    display: flex;
+    gap: 30px;
+}
+
+.listitems{
+    box-shadow: 
+    0 0 10px #00f,   /* inner glow */
+    0 0 10px #0ff,   /* outer glow */
+    0 0 40px rgb(157, 228, 228);
+    border-radius: 20px;
+    padding: 5px;
+    width: 300px;
+}
+
+.listitems img{
+    width: 100px;
+    height: 100px;
+}
